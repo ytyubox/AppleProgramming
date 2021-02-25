@@ -12,6 +12,10 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-
+    @IBOutlet weak var label: NSTextField!
+    
+    @IBAction func didTapButton(_ sender: NSButton) {
+        label.stringValue = "Hello, GitHub!!"
+    }
 }
 
