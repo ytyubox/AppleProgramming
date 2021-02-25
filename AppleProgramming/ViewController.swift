@@ -17,20 +17,5 @@ class ViewController: NSViewController {
     @IBAction func didTapButton(_ sender: NSButton) {
         label.stringValue = "Hello, GitHub!!"
     }
-    /**
-     awakeFromNib === viewDidLoad
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        label.font = NSFont(name: "Herculanum", size: 15)
-    }
-     */
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        label.font = NSFont(name: "Herculanum", size: 15)
-        label.textColor = .red
-        label.backgroundColor = .blue
-        label.drawsBackground = true
-        label.isSelectable = true
-    }
 }
 
