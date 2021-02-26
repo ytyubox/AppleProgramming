@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A724F1A625E8D64A00C179E9 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A724F1A425E8D64A00C179E9 /* DatePickerViewController.swift */; };
+		A724F1A725E8D64A00C179E9 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A724F1A525E8D64A00C179E9 /* SliderViewController.swift */; };
+		A724F1AD25E8D65600C179E9 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A724F1A925E8D65600C179E9 /* DatePicker.storyboard */; };
+		A724F1AE25E8D65600C179E9 /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A724F1AB25E8D65600C179E9 /* Slider.storyboard */; };
+		A724F1B225E8E7FB00C179E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A724F1B125E8E7FB00C179E9 /* Main.storyboard */; };
 		A7438F5525E7972600875C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7438F5425E7972600875C59 /* AppDelegate.swift */; };
 		A7438F5725E7972600875C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7438F5625E7972600875C59 /* ViewController.swift */; };
 		A7438F5925E7972700875C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7438F5825E7972700875C59 /* Assets.xcassets */; };
-		A7438F5C25E7972700875C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7438F5A25E7972700875C59 /* Main.storyboard */; };
+		A7438F5C25E7972700875C59 /* SayHello.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7438F5A25E7972700875C59 /* SayHello.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A724F1A425E8D64A00C179E9 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A724F1A525E8D64A00C179E9 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		A724F1AA25E8D65600C179E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DatePicker.storyboard; sourceTree = "<group>"; };
+		A724F1AC25E8D65600C179E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Slider.storyboard; sourceTree = "<group>"; };
+		A724F1B125E8E7FB00C179E9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A7438F5125E7972600875C59 /* AppleProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7438F5425E7972600875C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7438F5625E7972600875C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7438F5825E7972700875C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A7438F5B25E7972700875C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7438F5B25E7972700875C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SayHello.storyboard; sourceTree = "<group>"; };
 		A7438F5D25E7972700875C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7438F5E25E7972700875C59 /* AppleProgramming.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleProgramming.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +66,12 @@
 				A7438F5425E7972600875C59 /* AppDelegate.swift */,
 				A7438F5625E7972600875C59 /* ViewController.swift */,
 				A7438F5825E7972700875C59 /* Assets.xcassets */,
-				A7438F5A25E7972700875C59 /* Main.storyboard */,
+				A724F1B125E8E7FB00C179E9 /* Main.storyboard */,
+				A7438F5A25E7972700875C59 /* SayHello.storyboard */,
+				A724F1A425E8D64A00C179E9 /* DatePickerViewController.swift */,
+				A724F1A525E8D64A00C179E9 /* SliderViewController.swift */,
+				A724F1A925E8D65600C179E9 /* DatePicker.storyboard */,
+				A724F1AB25E8D65600C179E9 /* Slider.storyboard */,
 				A7438F5D25E7972700875C59 /* Info.plist */,
 				A7438F5E25E7972700875C59 /* AppleProgramming.entitlements */,
 			);
@@ -120,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A724F1AD25E8D65600C179E9 /* DatePicker.storyboard in Resources */,
+				A724F1B225E8E7FB00C179E9 /* Main.storyboard in Resources */,
 				A7438F5925E7972700875C59 /* Assets.xcassets in Resources */,
-				A7438F5C25E7972700875C59 /* Main.storyboard in Resources */,
+				A7438F5C25E7972700875C59 /* SayHello.storyboard in Resources */,
+				A724F1AE25E8D65600C179E9 /* Slider.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,18 +152,36 @@
 			files = (
 				A7438F5725E7972600875C59 /* ViewController.swift in Sources */,
 				A7438F5525E7972600875C59 /* AppDelegate.swift in Sources */,
+				A724F1A625E8D64A00C179E9 /* DatePickerViewController.swift in Sources */,
+				A724F1A725E8D64A00C179E9 /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7438F5A25E7972700875C59 /* Main.storyboard */ = {
+		A724F1A925E8D65600C179E9 /* DatePicker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A724F1AA25E8D65600C179E9 /* Base */,
+			);
+			name = DatePicker.storyboard;
+			sourceTree = "<group>";
+		};
+		A724F1AB25E8D65600C179E9 /* Slider.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A724F1AC25E8D65600C179E9 /* Base */,
+			);
+			name = Slider.storyboard;
+			sourceTree = "<group>";
+		};
+		A7438F5A25E7972700875C59 /* SayHello.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A7438F5B25E7972700875C59 /* Base */,
 			);
-			name = Main.storyboard;
+			name = SayHello.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

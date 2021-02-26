@@ -10,7 +10,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class DatePickerViewController: NSViewController {
     @IBOutlet private weak var label: NSTextField!
     @IBOutlet private weak var nameField: NSTextField!
     @IBOutlet private weak var datePicker: NSDatePicker!
